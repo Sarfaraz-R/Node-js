@@ -1,0 +1,14 @@
+Design A Rest Api - JSON
+
+ GET /api/users - List all users 
+
+ GET /users/id - Get the user with id 
+
+
+ POST /api/users/id - Create new user
+
+ PATCH /api/user/id - Edit the user with id = id 
+
+ DELETE /user/id - delete the user with id 
+
+ 
