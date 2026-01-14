@@ -8,7 +8,7 @@ app.use((req,res,next)=>{
   console.log('MIDDLEWARE 1 COMPLETED ITS EXECUTION:)');
   next();
 })
-// route and its handler function (middleware system)
+// route and its handler function (middleware system) :
 app.get('/api/users/:id',(req,res,next)=>{
   console.log(`Received Req for the id : ${req.params.id}`);
   //DB QUERY
